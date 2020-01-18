@@ -1,0 +1,7 @@
+= Test
+:basedir: {includedir}/guide
+:imagesdir: images
+:imagesoutdir: {outdir}/guide/images
+ifdef::backend-pdf[:imagesdir: {imagesoutdir}]
+
+include::{basedir}/include.adoc[]

@@ -1,0 +1,9 @@
+
+.Static Image
+image::static.jpg[]
+
+.Generated Image
+[plantuml, component-diagram, svg]
+----
+foo ..> bar
+----
